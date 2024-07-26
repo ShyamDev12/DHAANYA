@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SosInsructionsActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="25dp"
+        app:cardCornerRadius="15dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:text="INSTRUCTIONS for Crash Alert"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="65dp"
+            android:background="@color/lightGray">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:inputType="textMultiLine"
+                android:padding="6dp"
+                android:text="STEP 1 : Wear and Connect: \n\n
+
+Wear the smart helmet with aligned sensors.
+
+Connect helmet to the mobile app via Bluetooth/Wi-Fi.\n \n
+
+STEP 2 : Enable Crash Detection: \n\n
+
+Activate crash detection in app settings.
+Calibrate sensors as per user manual.\n\n
+STEP 3 : Ride with Monitoring: \n\n
+
+Keep the app running for real-time monitoring.
+Sensors detect and analyze impacts during the ride. \n\n
+
+STEP 4 : Receive Instant Alerts:\n\n
+
+Immediate app alert for detected crash.
+Simultaneous notification to emergency services.\n\n
+
+STEP 5 : Emergency Response: \n\n
+
+Respond to app check-in for user status.
+Utilize automatic call for help if needed."
+                android:textColor="#000000"
+                android:textSize="18sp" />
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
